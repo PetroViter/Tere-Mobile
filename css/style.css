@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "gilroyregular";
+  src: url("../fonts/gilroy-regular-webfont.woff2") format("woff2"), url("../fonts/gilroy-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

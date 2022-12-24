@@ -8,3 +8,19 @@ $xxl: 1400px;
 
 //colors
 $bg_color: #FFFFFF;
+
+
+
+//container-max-widths 
+$sm: 560px;  
+$xl: 1160px;
+
+
+$font-size-root:              null;
+$font-size-base:              1rem; // Assumes the browser default, typically `16px`
+$font-size-sm:                
+$font-size-base * .875;
+$font-size-lg:                
+$font-size-base * 1.25;
+
+$font-weight-bold: 900!important;

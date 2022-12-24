@@ -14,7 +14,11 @@
     box-sizing: border-box;
 }
 
-
+body {
+    font-family: 'gilroyregular'!important;
+    font-style: normal;
+    background-color: azure;
+}
 
 .flex {
     display: flex;    
@@ -23,5 +27,31 @@
 img {
     max-width: 100%;
     max-height: 100%;    
+}
+
+.bg-img {
+    background-image: url('../images/green_s.svg');
+    background-repeat: no-repeat;        
+    background-position: center;
+    background-size: contain;
+}
+
+.big-number p {
+    font-family: 'gilroyregular';
+    font-style: normal;
+    font-weight: 500!important;
+    font-size: 65px!important;
+    line-height: 87px;
+}
+
+.bold h2 {    
+    font-weight: 800!important;;
+    font-size: 24px!important;;
+    line-height: 50px;
+    /* identical to box height, or 210% */
+    
+    text-align: center;
+    
+    color: #000000;
 }
 
